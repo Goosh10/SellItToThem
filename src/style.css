@@ -1,0 +1,129 @@
+/*
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  font-size: 14px;
+}
+*/
+
+html,
+.fullscreen {
+  display: flex;
+  height: 98%;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 98%;
+}
+
+label {
+  background-color: rgb(144, 245, 203);
+  border-radius: 2px;
+  width: auto;
+  font-size: 3vw;
+  text-align: center;
+  margin-right: 1em;
+}
+
+.label-turn {
+  text-align: right;
+}
+
+button {
+  width:90%;
+  height:25%;
+  font-size: 3vw;
+}
+
+.label-object {
+  background-color: rgb(144, 245, 203);
+  font-size: 6vw;
+  width: 20%:
+}
+
+.label-person {
+  background-color: rgb(144, 245, 203);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  width: auto;
+  font-size: 6vw;
+}
+
+input {
+  width: 40%;
+  font-size: 3vw;
+  flex: 1;
+}
+
+.section-cluster {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 3px;
+  font-size: 24px;
+  font-size: 5vw;
+  margin-bottom: 10px;
+}
+
+.section-left {
+  display: flex;
+  width: 20%;
+  padding: 10px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(163, 184, 255);
+  border-radius: 5px;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid lightgray;
+  border-left: 2px solid lightgray;
+}
+
+.section-right {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.section-right-turn {
+  background-color: rgb(167, 234, 252);
+  flex-direction: column;
+}
+
+.section-right-objects {
+  background-color: rgb(99, 222, 255);
+}
+
+.section-right-person {
+  background-color: rgb(0, 201, 255);
+}
+
+.section-header {
+  //background-color: teal;
+  text-align: center;
+  width: 90%;
+}
+
+.section-pair {
+  display: flex;
+  width: 90%;
+  font-size: 18px;
+  padding-left: 10px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  //background-color: orange;
+}

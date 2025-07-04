@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <script>
+    document.addEventListener("click", function() {
+      window.location.reload();
+    })
+  </script> -->
+
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <title>Sell It To Them</title>
+  <link href="src/style.css" rel="stylesheet" type="text/css" />
+  <script src="src/arrays.js" type="text/javascript"></script>
+  <script src="src/scripts.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <h1>Player Turnssss</h1>
+  <form>
+    <fieldset>
+
+      <label>My Turn Priority</label>
+      <span id="spnTurnPriority">0</span>
+
+      <label>My Turn is after: </label>
+      <input type="text" id="ifollow" name="ifollow"><br><br>
+
+      <label>Who is after me: </label>
+      <input type="text" id="followsme" name="followsme"><br><br>
+
+    </fieldset>
+
+    <br>
+
+    <button type="button" onclick="rollTurnPriority()">
+      Roll Turn Priority
+    </button>
+
+  </form>
+  <br>
+
+  <h1>Get Object Cards</h1>
+  <form>
+    <fieldset>
+
+      <label>Card001</label>
+      <span id="spnCard001">________</span>
+
+      <label>Card002</label>
+      <span id="spnCard002">________</span>
+
+      <label>Card003</label>
+      <span id="spnCard003">________</span>
+
+      <label>Card004</label>
+      <span id="spnCard004">________</span>
+
+      <label>Card005</label>
+      <span id="spnCard005">________</span>
+
+    </fieldset>
+
+    <br>
+
+    <button type="button" onclick="rollObject()">
+      Get Your Object Cards
+    </button>
+
+  </form>
+  <br>
+  <h1>Get Person Cards</h1>
+  <form>
+    <fieldset>
+
+      <h3 id="spnCardPerson001">________</h3>
+
+    </fieldset>
+
+    <br>
+
+    <button type="button" onclick="rollPerson()">
+      Get Your Person Card
+    </button>
+
+  </form>
+</body>
+
+</html>

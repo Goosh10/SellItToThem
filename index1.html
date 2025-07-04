@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <script>
+    document.addEventListener("click", function() {
+      window.location.reload();
+    })
+  </script> -->
+
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <title>Sell It To Them</title>
+  <link href="src/style.css" rel="stylesheet" type="text/css" />
+  <script src="src/arrays.js" type="text/javascript"></script>
+  <script src="src/scripts.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+
+  <div class='section-cluster'>
+
+    <div class='section-left'>
+
+      <div class='section-header'>Player Turn</div>
+      <button type="button" onclick="rollTurnPriority()">
+        Roll Turn Priority
+      </button>
+
+    </div>
+
+    <div class='section-right'>
+
+      <div class='section-pair'>
+        <label>My Turn Priority:</label>
+        <!-- <div style="background-color:red; width:150px" style="text-align: left" id="spnTurnPriority">0</div> -->
+        <input type="text" id="spnTurnPriority" value="0" readonly>
+      </div>
+
+
+      <div class='section-pair'>
+        <label>My Turn is after: </label>
+        <input type="text" id="ifollow" name="ifollow">
+      </div>
+
+      <div class='section-pair'>
+        <label>Who is after me: </label>
+        <input type="text" id="followsme" name="followsme">
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class='section-cluster'>
+
+    <div class='section-left'>
+      <div class='section-header'>Get Object Cards</div>
+      <button type="button" onclick="rollObject()">
+        Get Your Object Cards
+      </button>
+    </div>
+
+    <div class='section-right'>
+
+      <div class='section-pair'>
+        <label>Card001</label>
+        <label id="spnCard001">________</label>
+      </div>
+
+      <div class='section-pair'>
+        <label>Card002</label>
+        <label id="spnCard002">________</label>
+      </div>
+
+      <div class='section-pair'>
+        <label>Card003</label>
+        <label id="spnCard003">________</label>
+      </div>
+
+      <div class='section-pair'>
+        <label>Card004</label>
+        <label id="spnCard004">________</label>
+      </div>
+
+      <div class='section-pair'>
+        <label>Card005</label>
+        <label id="spnCard005">________</label>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class='section-cluster'>
+
+    <div class='section-left'>
+      <div class='section-header'>Get Person Cards</div>
+      <button type="button" onclick="rollPerson()">
+        Get Your Person Card
+      </button>
+    </div>
+
+
+    <label class="label-person" id="spnCardPerson001">________</label>
+
+
+</div>
+
+
+  <!-- <div class='section-cluster'>
+
+    <div class='section-left'>
+
+    </div>
+
+    <div class='section-right'>
+
+
+    </div>
+
+  </div> -->
+
+
+</body>
+
+</html>

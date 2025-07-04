@@ -1,1 +1,128 @@
-Hello My World!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+
+  <title>Sell It To Them</title>
+
+  <!-- <script>
+    document.addEventListener("click", function() {
+      window.location.reload();
+    })
+  </script> -->
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="white"/>
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="images/hello-icon-152.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Hello World">
+  <meta name="msapplication-TileImage" content="images/hello-icon-144.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="src/style.css" rel="stylesheet" type="text/css" />
+  <script src="src/arrays.js" type="text/javascript"></script>
+</head>
+<body class="fullscreen">
+
+
+  <div class='section-cluster'>
+
+    <div class='section-left' id='section-left-turn'>
+
+      <div class='section-header'>Player Turn</div>
+      <!-- <button type="button" onclick="rollTurnPriority()">
+        Roll
+      </button> -->
+
+    </div>
+
+    <div class='section-right section-right-turn'>
+
+      <div class='section-pair'>
+        <label class="label-turn">My Turn Priority:</label>
+        <input type="text" id="spnTurnPriority" value="0" readonly>
+      </div>
+
+
+      <div class='section-pair'>
+        <label class="label-turn">Previous Player: </label>
+        <input type="text" id="ifollow" name="ifollow">
+      </div>
+
+      <div class='section-pair'>
+        <label class="label-turn">Next Player: </label>
+        <input type="text" id="followsme" name="followsme">
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class='section-cluster'>
+
+    <div class='section-left' id='section-left-object'>
+      <div class='section-header'>Object Cards</div>
+      <!-- <button type="button" onclick="rollObject()">
+        Get Cards
+      </button> -->
+    </div>
+
+    <div class='section-right section-right-objects'>
+
+      <label class="label-object" id="spnCard001">_____</label>
+
+      <label class="label-object" id="spnCard002">_____</label>
+
+      <label class="label-object" id="spnCard003">_____</label>
+
+      <label class="label-object" id="spnCard004">_____</label>
+
+      <label class="label-object" id="spnCard005">_____</label>
+
+      <label class="label-object" id="spnCard006">_____</label>
+
+    </div>
+
+  </div>
+
+
+  <div class='section-cluster'>
+
+    <div class='section-left' id='section-left-person'>
+      <div class='section-header'>Person Cards</div>
+      <!-- <button type="button" onclick="rollPerson()">
+        Get Cards
+      </button> -->
+    </div>
+
+    <div class='section-right section-right-person'>
+      <label class="label-person" id="spnCardPerson001">________</label>
+    </div>
+
+  </div>
+
+
+  <!-- <div class='section-cluster'>
+
+    <div class='section-left'>
+
+    </div>
+
+    <div class='section-right'>
+
+
+    </div>
+
+  </div> -->
+  <script src="src/scripts.js" type="text/javascript"> </script>
+  <script src="src/main.js"></script>
+</body>
+
+</html>
